@@ -6,6 +6,6 @@ describe('/ endpoint', () => {
     const response = await request(app).get('/');
     const body = JSON.parse(response.text);
     expect(response.status).toBe(200);
-    expect(body.message).toBe('¡Hola Mundo!');  // Ajustar el valor esperado para que coincida con el valor real
+    expect(body.message).toBe('¡Hola Mundo!');  
   });
 });
