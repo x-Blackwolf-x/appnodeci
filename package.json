@@ -1,19 +1,19 @@
 {
-  "name": "practicadocker4",
+  "name": "proyecto",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
-    "express": "^4.19.2"
+    "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "nodemon": "^3.1.1"
+    "express": "^4.17.2"
   }
 }
+
